@@ -1,0 +1,17 @@
+.parent {
+
+display:grid;
+grid-template-columns: 1 fr 1 fr 1 fr 1 fr;
+grid-gap: 10px;
+grid-template-areas:
+'img img img img'
+'form form form '
+
+background-color:yellow;
+}
+
+#form{
+
+  background-color: grey;
+  
+}
